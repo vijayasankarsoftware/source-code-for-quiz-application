@@ -1,0 +1,40 @@
+.content {
+    margin: auto;
+    width: 50%;
+}
+
+.Sub {
+    width: 200px;
+    height: 50px;
+    border: 0px solid red;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.content2 {
+    margin-top: 50px;
+}
+
+.Downloadbtn {
+    width: 200px;
+    height: 50px;
+    border: 0px solid red;
+    border-radius: 20px;
+    background-color:green;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.downloadlink {
+    visibility: hidden;
+}
+
+@media (min-width: 500px ){
+    .content {
+        width: 90%;
+    }
+}
